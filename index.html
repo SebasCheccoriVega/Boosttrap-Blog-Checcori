@@ -38,7 +38,7 @@
     </nav>
 
     <div class="container">
-        <div class="row" id="link1">
+        <div class="row m-5" id="link1">
             <div class="col-12 ">
                 <h2>Acerca del Control de Versiones</h2>
                 <p>Este capítulo se va a hablar de cómo comenzar a utilizar Git. Empezaremos describiendo algunos conceptos básicos sobre las herramientas de control de versiones; después, trataremos de explicar cómo hacer que Git funcione en tu sistema; finalmente, exploraremos cómo configurarlo para empezar a trabajar con él. Al final de este capítulo deberás entender las razones por las cuales Git existe y conviene que lo uses, y deberás tener todo preparado para comenzar.</p>
@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <div class="row row-cols-2" id="link2">
+        <div class="row row-cols-2 m-5" id="link2">
             <div class="col">
                 <h4>Sistemas de Control de Versiones Locales</h4>
                 <p>Un método de control de versiones, usado por muchas personas, es copiar los archivos a otro directorio (quizás indicando la fecha y hora en que lo hicieron, si son ingeniosos). Este método es muy común porque es muy sencillo, pero también es tremendamente propenso a errores. Es fácil olvidar en qué directorio te encuentras y guardar accidentalmente en el archivo equivocado o sobrescribir archivos que no querías.
@@ -61,7 +61,7 @@
             </div>
         </div>
 
-        <div class="row row-cols-2" id="link3">
+        <div class="row row-cols-2 m-5" id="link3">
             <div class="col">
                 <h4>Sistemas de Control de Versiones Centralizados</h4>
                 <p>El siguiente gran problema con el que se encuentran las personas es que necesitan colaborar con desarrolladores en otros sistemas. Los sistemas de Control de Versiones Centralizados (CVCS por sus siglas en inglés) fueron desarrollados para solucionar este problema. Estos sistemas, como CVS, Subversion y Perforce, tienen un único servidor que contiene todos los archivos versionados y varios clientes que descargan los archivos desde ese lugar central. Este ha sido el estándar para el control de versiones por muchos años.
@@ -76,7 +76,7 @@ Sin embargo, esta configuración también tiene serias desventajas. La más obvi
             </div>
         </div>
 
-        <div class="row row-cols-2" id="link4">
+        <div class="row row-cols-2 m-5" id="link4">
             <div class="col">
                 <h4>Sistemas de Control de Versiones Distribuidos</h4>
                 <p>Los sistemas de Control de Versiones Distribuidos (DVCS por sus siglas en inglés) ofrecen soluciones para los problemas que han sido mencionados. En un DVCS (como Git, Mercurial, Bazaar o Darcs), los clientes no solo descargan la última copia instantánea de los archivos, sino que se replica completamente el repositorio. De esta manera, si un servidor deja de funcionar y estos sistemas estaban colaborando a través de él, cualquiera de los repositorios disponibles en los clientes puede ser copiado al servidor con el fin de restaurarlo. Cada clon es realmente una copia completa de todos los datos.
